@@ -63,7 +63,7 @@ class Solution {
         int rightSum=0,count=0,size=nums.length;
         for(int i:nums)
             rightSum+=i;
-            int leftSum=0;
+        int leftSum=0;
         for(int i=0;i<size-1;i++)
         {
             leftSum+=i;
